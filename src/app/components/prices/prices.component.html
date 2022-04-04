@@ -1,0 +1,27 @@
+<h1>Historical prices {{nemoOption}}</h1>
+
+<div id="containerprices">
+<table id="pricestable" class="firstpricestable">
+  <tr>
+    <th>Date</th>
+    <th>Price</th>
+  </tr>
+</table>
+
+  <!-- <tr *ngFor="let price of prices">
+    <td>{{price.id}}</td>
+    <td>{{nemo.name}}</td>
+  </tr> -->
+  <div id="pricesdata">
+    <table id="pricestable">
+      <tr  *ngFor="let price of prices">
+        <td>{{price.date}}</td>
+        <td>{{price.close}}</td>
+      </tr>
+  </table>
+  </div>
+
+</div>
+  
+
+

@@ -1,0 +1,15 @@
+<h1>Nemos</h1>
+
+<table id="nemostable">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+  </tr>
+
+  <tr *ngFor="let nemo of nemos" (click)="changeNemo(nemo.symbol)">
+    <td>{{nemo.symbol}}</td>
+    <td>{{nemo.name}}</td>
+  </tr>
+
+  
+</table>
