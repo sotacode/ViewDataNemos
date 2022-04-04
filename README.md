@@ -9,3 +9,5 @@ Este proyecto básicamente muestra el precio historico de Nemos o ETF's a lo lar
 Existen peticiones fetch a un backend creado con node.js utilizando express.
 Mientras que en el frontend se despliega una tabla con los Nemos en donde cada item es seleccionable.
 Una vez se selecciona un item, se despliega un grafico y una tabla con los precios historicos del respectivo ETF.
+
+WebPage: http://visualizationnemosprices.s3-website-sa-east-1.amazonaws.com/
